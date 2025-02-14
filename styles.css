@@ -6,13 +6,13 @@
 }
 
 body {
-  background-color: #fff8f0;
+  background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
 }
 
 header {
-  background-color: #d35400;
+  background-color: #1e272e;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -38,7 +38,7 @@ nav ul li a:hover {
 }
 
 .hero {
-  background-image: url('https://source.unsplash.com/1600x900/?food,cooking');
+  background-image: url('https://source.unsplash.com/1600x900/?technology,coding');
   background-size: cover;
   background-position: center;
   color: white;
@@ -47,7 +47,7 @@ nav ul li a:hover {
 }
 
 .hero-content {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   padding: 2rem;
   display: inline-block;
   border-radius: 8px;
@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .btn {
-  background-color: #ff6b6b;
+  background-color: #3498db;
   color: white;
   padding: 0.7rem 1.5rem;
   text-decoration: none;
@@ -74,27 +74,27 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-  background-color: #ff4757;
+  background-color: #2980b9;
 }
 
-.recipes {
+.projects {
   text-align: center;
   padding: 3rem 1rem;
 }
 
-.recipes h2 {
+.projects h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
-.recipes-container {
+.projects-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.recipe {
+.project {
   background: white;
   padding: 1.5rem;
   border-radius: 10px;
@@ -103,17 +103,17 @@ nav ul li a:hover {
   transition: transform 0.3s ease-in-out;
 }
 
-.recipe:hover {
+.project:hover {
   transform: translateY(-5px);
 }
 
-.recipe h3 {
-  color: #d35400;
+.project h3 {
+  color: #1e272e;
   margin-bottom: 0.5rem;
 }
 
 .contact {
-  background-color: #f7d794;
+  background-color: #dfe6e9;
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -124,7 +124,7 @@ nav ul li a:hover {
 }
 
 .contact a {
-  color: #d35400;
+  color: #3498db;
   text-decoration: none;
   font-weight: bold;
 }
